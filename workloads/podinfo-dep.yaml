@@ -47,7 +47,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_MESSAGE
-          value: "FLUX DEMO-- 2:50pm"
+          value: "FLUX DEMO once again : 3:32pm -- 4/1/2020"
         livenessProbe:
           httpGet:
             path: /healthz
